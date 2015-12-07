@@ -1,0 +1,256 @@
+.no-padding {
+	padding: 0px !important;
+}
+
+body {
+	font-family: 'Open Sans';
+}
+
+/* Login Page */
+#login-page {
+	background-color: #3B0025;
+	padding-top: 125px;
+	height: 100%;
+}
+
+#login-page form {
+	font-size: 20pt !important;
+}
+
+.btn-login-submit {
+	width: 100%;
+	font-weight: 700;
+}
+
+.logo-login {
+	width: 410px;
+	padding: 5px;
+	margin-bottom: 35px;
+}
+
+footer {
+	position: absolute;
+	text-align: center;
+	bottom: 20px;
+	width: 100%;
+}
+
+.footer-link {
+	font-size: 12pt;
+	color: #fff;
+	padding: 5px 10px;
+}
+
+/* Navbar */
+.navbar-default {
+	background-color: #3B0025;
+	min-height: 65px;
+}
+
+.navbar-header {
+	float: right;
+	color: #fff !important;
+	margin-top: 5px;
+}
+
+.nav>li>a {
+	font-size: 12pt;
+	border-left-style: solid;
+	border-left-color: #6A425B;
+	border-left-width: 1px;
+}
+
+.nav > li > a:hover {
+	color: #1B8FFF !important;
+}
+
+.navbar-img {
+	margin-top: -7px;
+	height: 30px;
+	margin-right: 10px;
+}
+
+/* Beri Aspirasi */
+.box-step {
+	margin-top: 35px;
+}
+
+.btn-step {
+	padding: 8px 18px;
+	border-radius: 50%;
+	font-size: 18pt;
+	font-weight: 600;
+	color: #fff;
+	background-color: #999;
+}
+
+.btn-step:hover {
+	background-color: #1B8FFF;
+	color: #fff;
+}
+
+.btn-step-active {
+	background-color: #1B8FFF;
+}
+
+.btn-step-active:hover {
+	background-color: #1B8FFF;
+	color: #fff;
+}
+
+.step {
+	text-align: center;
+	margin: 0px auto;
+}
+
+.box-button {
+	margin-top: 40px;
+	text-align: center;
+}
+
+.instruction {
+	text-align: left;
+	margin-left: 60px;
+}
+
+.btn-bidang {
+	width: 150px;
+	height: 150px;
+	background-color: #f2f2f2;
+	border-radius: 20px;
+	margin: 10px 5px 150px 5px;
+}
+
+.btn-bidang:hover {
+	background-color: transparent;
+	border-style: solid;
+	border-color: #1B8FFF;
+	border-width: 2px;
+}
+
+.img-button-bidang {
+	width: 100px;
+}
+
+textarea {
+	width: 80%;
+	height: 250px;
+	background-color: #f2f2f2;
+	resize: none;
+	border-style: none;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.btn-kirim-aspirasi {
+	padding: 5px 12px;
+}
+
+.modal-content  {
+	padding: 20px;
+}
+
+.modal-header {
+	text-transform: uppercase;
+	border-bottom-style: none;
+	padding-bottom: 0px;
+}
+
+/* Lis Aspirasi Page*/
+.daftar-aspirasi {
+	overflow-x: hidden;
+}
+
+.box-header {
+	text-align: center;
+	margin-top: 25px;
+}
+
+.box-list-aspirasi {
+	margin-left: 100px;
+}
+
+.list-aspirasi {
+	background-color: #f2f2f2;
+	border-radius: 5px;
+	border: solid 1px #c0c0c0;
+	padding: 10px;
+	margin: 20px;
+}
+
+.tagline {
+	/*border-top: solid 1px #c0c0c0;*/
+	margin: 15px 0px;
+}
+
+.img-profil {
+	height: 50px;
+}
+
+.label-bidang {
+	width: 80px;
+	height: 30px;
+	padding: 5px 0px;
+	margin-top: 8px;
+	text-align: center;
+	font-size: 10pt;
+	background-color: #3B0025;
+	color: #fff;
+}
+
+.nama {
+	margin-bottom: 0px !important;
+	font-weight: 600;
+}
+
+.status {
+	margin-top: 5px !important;
+}
+
+.box-btn-aspirasi-lain {
+	text-align: center;
+}
+
+.btn-aspirasi-lain {
+	font-weight: 600;
+	padding: 5px 100px;
+}
+
+.box-list-action {
+	margin-top: 50px;
+	border-top: solid 1px #c0c0c0;
+}
+
+.baca-selengkapnya {
+	font-weight: 600;
+}
+
+.aspirasi-aksi {
+	text-align: right;
+}
+
+.btn-aksi {
+	border: none;
+	background-color: transparent;
+	padding: 10px 5px;
+}
+
+.btn-aksi:hover {
+	color: #1B8FFF;
+}
+
+/* Detail Aspirasi Page*/
+.box-detail-saran {
+	background-color: #f2f2f2;
+	border: solid 1px #999;
+	border-radius: 10px;
+	padding: 15px; 
+}
+
+.box-detial-saran-kanan {
+	/*min-height: 100%;*/
+}
+
+.box-detail-saran-kiri {
+	border-right: solid 1px #999;
+}
