@@ -5,7 +5,7 @@
     <meta name="description" content="Aspirasi TETI">
     <meta name="author" content="Rafika Amini">
 
-    <?php define('BASE_URL', 'http://localhost/aspirasiteti/'); ?>
+    <?php define('BASE_URL', 'http://localhost/aspirasiteti_dev/'); ?>
 
     <title>Aspirasi TETI</title>
 
