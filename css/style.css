@@ -206,6 +206,10 @@ textarea {
 	height: 50px;
 }
 
+.img-profil-lg {
+	height: 70px;
+}
+
 .label-bidang {
 	width: 80px;
 	height: 30px;
@@ -217,6 +221,18 @@ textarea {
 	color: #fff;
 }
 
+.label-bidang-lg {
+	float: right;
+	margin-right: 20px;
+	width: 140px;
+	/*height: 30px;*/
+	padding: 5px 0px;
+	margin-top: 8px;
+	text-align: center;
+	font-size: 14pt;
+	background-color: #3B0025;
+	color: #fff;
+}
 .nama {
 	margin-bottom: 0px !important;
 	font-weight: 600;
@@ -272,4 +288,13 @@ textarea {
 
 .box-detail-saran-kiri {
 	border-right: solid 1px #999;
+}
+
+.box-last-action {
+	margin-top: 20px;
+}
+
+.last-action {
+	margin-top: 15px;
+	margin-left: 10px;
 }
