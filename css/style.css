@@ -135,7 +135,7 @@ footer {
 	height: 150px;
 	background-color: #f2f2f2;
 	border-radius: 20px;
-	margin: 10px 5px 150px 5px;
+	margin: 10px;
 }
 
 .btn-bidang:hover {
@@ -147,6 +147,27 @@ footer {
 
 .img-button-bidang {
 	width: 100px;
+}
+
+input[type=radio] {
+    display:none; 
+    margin:10px;
+}
+
+input[type=radio] + label {
+    display:inline-block;
+    margin:-2px 5px;
+    padding: 13px 23px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+}
+
+input[type=radio]:checked + label { 
+   	background-image: none;
+   	background-color: transparent;
+   	border-style: solid;
+	border-color: #1B8FFF;
+	border-width: 2px;
 }
 
 textarea {

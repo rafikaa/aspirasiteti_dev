@@ -24,26 +24,31 @@
 			<!-- Pilih Bidang -->
 			<div class="section-bidang">
 				<h4 class="instruction">Sampaikan <b>aspirasi</b> berdasarkan bidang yang ada:</h4>
-				<button class="btn btn-bidang" onclick="selectBidang(this)">
+				<input type="radio" id="radioAkademik" name="bidang" value="akademik" onclick="selectBidang(this)">
+				<label for="radioAkademik" class="btn btn-bidang">
 					<img src="<?php echo BASE_URL; ?>img/akademik.png" class="img-button-bidang"><br>
 					Akademik
-				</button>
-				<button class="btn btn-bidang" onclick="selectBidang(this)">
+				</label>
+				<input type="radio" id="radioDosen" name="bidang" value="dosen" onclick="selectBidang(this)">
+				<label for="radioDosen" class="btn btn-bidang">
 					<img src="<?php echo BASE_URL; ?>img/dosen.png" class="img-button-bidang"><br>
 					Dosen
-				</button>
-				<button class="btn btn-bidang" onclick="selectBidang(this)">
+				</label>
+				<input type="radio" id="radioFasilitas" name="bidang" value="fasilitas" onclick="selectBidang(this)">
+				<label for="radioFasilitas" class="btn btn-bidang">
 					<img src="<?php echo BASE_URL; ?>img/fasilitas.png" class="img-button-bidang"><br>
 					Fasilitas
-				</button>
-				<button class="btn btn-bidang" onclick="selectBidang(this)">
+				</label>
+				<input type="radio" id="radioKemahasiswaan" name="bidang" value="kemahasiswaan" onclick="selectBidang(this)">
+				<label for="radioKemahasiswaan" class="btn btn-bidang">
 					<img src="<?php echo BASE_URL; ?>img/kemahasiswaan.png" class="img-button-bidang"><br>
 					Kemahasiswaan
-				</button>
-				<button class="btn btn-bidang" onclick="selectBidang(this)">
+				</label>
+				<input type="radio" id="radioKMTETI" name="bidang" value="kmteti" onclick="selectBidang(this)">
+				<label for="radioKMTETI" class="btn btn-bidang">
 					<img src="<?php echo BASE_URL; ?>img/kmteti.png" class="img-button-bidang"><br>
 					KMTETI
-				</button>
+				</label>
 			</div>
 			<!-- Ketik Saran -->
 			<div class="section-ketik" style="left:100%;">
